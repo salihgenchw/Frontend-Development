@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Odevi</title>
 </head>
+
 <body>
-    
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tesla_Motors_Logo.svg/1280px-Tesla_Motors_Logo.svg.png"
+            alt="tesla_logo" height="20px" style="margin-top: 10px; margin-left: 10px" />
+        <hr />
+    </header>
+
+    <div class="soldiv">
+        <img src="tesla.png" alt="tesla" width="550px" style="float: right;" />
+    </div>
+
+    <div class="sagdiv">
+        <form style="margin-top: 20px;">
+            <label for="fname">First Name</label>
+            <br>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <br>
+            <label for="lname">Last Name</label>
+            <br>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <br>
+
+            <label for="lname">E-Mail</label>
+            <br>
+            <input type="email" id="mail" name="email" placeholder="E-Mail..">
+            <br>
+
+
+            <label for="country">Country</label>
+            <br>
+            <select id="country" name="country">
+                <option value="istanbul">istanbul</option>
+                <option value="ankara">Ankara</option>
+                <option value="izmir">Izmir</option>
+            </select>
+            <p>Your age:</p>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label>
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label><br>
+            <br>
+            <label for="subject">Subject</label>
+            <br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
 </body>
+
 </html>

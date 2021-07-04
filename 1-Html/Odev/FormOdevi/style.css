@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.soldiv {  
+    display: inline;
+    float: left;
+    width: 700px;
+    margin-top: 12%;
+}
+
+.sagdiv {
+    background-color: rgb(245, 245, 248);
+    display: inline-block;
+    width: 500px;
+    margin-left: 50px;
+    height: 700px;
+}
+
+form{
+    margin-left: 20px;
+}
+
+input[type=text], [type=email], select, textarea {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: rgb(216, 7, 7);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
