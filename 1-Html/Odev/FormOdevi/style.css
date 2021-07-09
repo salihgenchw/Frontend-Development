@@ -7,14 +7,16 @@ body {
 .soldiv {  
     display: inline;
     float: left;
-    width: 700px;
+    min-width: 640px;
+    width: 45%;
     margin-top: 12%;
 }
 
 .sagdiv {
     background-color: rgb(245, 245, 248);
     display: inline-block;
-    width: 500px;
+    width: 50%;
+    min-width: 470px;
     margin-left: 50px;
     height: 700px;
 }
